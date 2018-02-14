@@ -101,6 +101,12 @@
 - [Caffe2](https://caffe2.ai/)
 - [List of Conversion Tools For Saved Networks](https://github.com/ysh329/deep-learning-model-convertor)
 
+### Data Converters
+
+- [H.E.S.S. to HDF5](https://gitlab.com/ishilon/mcdst-to-h5)
+- [CTA to HDF5](https://github.com/cta-observatory/dl_data_dumper/)
+
+
 ## Others resources
 
 - [Resources for machine learning applications in High Energy Physics](https://github.com/iml-wg/HEP-ML-Resources.git) from which this page is largely inspired [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1147001.svg)](https://doi.org/10.5281/zenodo.1147001)
