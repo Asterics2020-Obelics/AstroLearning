@@ -4,18 +4,25 @@
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Astro Machine Learning Resources](#astro-machine-learning-resources)
-	- [Table of contents](#table-of-contents)
-		- [Seminars](#seminars)
-		- [Schools](#schools)
-		- [Courses](#courses)
-		- [Books](#books)
-	- [Conferences and workshops](#conferences-and-workshops)
-	- [Software](#software)
-		- [Libraries](#libraries)
-		- [Deep learning frameworks](#deep-learning-frameworks)
-	- [Others resources](#others-resources)
-	- [Papers](#papers)
+ - [Astro Machine Learning Resources](#astro-machine-learning-resources)
+
+  - [Table of contents](#table-of-contents)
+
+    - [Seminars](#seminars)
+    - [Schools](#schools)
+    - [Courses](#courses)
+    - [Books](#books)
+
+  - [Conferences and workshops](#conferences-and-workshops)
+
+  - [Software](#software)
+
+    - [Libraries](#libraries)
+    - [Deep learning frameworks](#deep-learning-frameworks)
+
+  - [Others resources](#others-resources)
+
+  - [Papers](#papers)
 
 <!-- /TOC -->
 
@@ -52,3 +59,7 @@
 - [a list of resources for machine learning applications in High Energy Physics from which this page is largely inspired](https://github.com/iml-wg/HEP-ML-Resources.git)
 
 ## Papers
+
+[list of papers](astro_ml_bib.pdf)
+
+> a .bib and associated .tex may be found in this repository. Update the .bib if you want to add a reference.
