@@ -3,3 +3,6 @@
 *.blg
 *.log
 *.gz
+*.bcf
+*.run.xml
+*.DS_Store

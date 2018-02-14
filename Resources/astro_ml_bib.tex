@@ -1,16 +1,24 @@
+% !TEX TS?program = pdflatexmk
+
 \documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}    % utf8 support     
+\usepackage[T1]{fontenc} 
+\usepackage[style=reading]{biblatex}
+\bibliography{astro_ml}
+
 \begin{document}
 
-\title{List of astro machine learning references}
+\title{Astro Machine Learning References}
 
 \date{\today}
 \maketitle
 
 
-
 \nocite{*}
 
-\bibliographystyle{plain}
-\bibliography{astro_ml.bib}
+
+\printbibliography
+
 
 \end{document}
