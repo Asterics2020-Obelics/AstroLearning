@@ -1,5 +1,9 @@
 # Astro Machine Learning Resources
 
+Here is a catalog of resources related to Machine Learning applications to Astronomy, Astrophysics and Astroparticles.   
+Do not hesitate to suggest contributions.
+
+
 ## Table of contents
 
   - [Education](#education)
