@@ -41,6 +41,8 @@ Do not hesitate to suggest contributions.
 
 > These schools are not necessarily entirely dedicated to ML
 
+- [Lisbon Machine Learning School](http://lxmls.it.pt/2018/): at the time of writing the application is closed. From the main page you can find the slides from the previous edition of the school ([2017 edition](http://lxmls.it.pt/2017/?page_id=65) for example): moreover there are also the video recordings of the lectures from past years editions ([2017 Edition on Youtube](https://www.youtube.com/watch?v=oUgkl8Z8wt8&list=PLToLj8M4ao-fuRfnzEJCCnvuW2_FeJ73N), also [2016](https://www.youtube.com/watch?v=jFyg-Ps5B0s&list=PLToLj8M4ao-fymxXBIOU6sF1NGFLb5EiX) is available).
+
 - [PAISS](https://project.inria.fr/paiss/): Artificial Intelligence Summer School, Grenoble, France, 2-6 July 2018
 
 - [4th Machine Learning in High Energy Physics Summer School 2018](https://indico.cern.ch/event/687473/) (August 6-12, 2018)
