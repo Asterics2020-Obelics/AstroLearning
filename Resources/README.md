@@ -49,6 +49,7 @@ Do not hesitate to suggest contributions.
 
 - ASTERICS-OBELICS Schools
   - [First ASTERICS-OBELICS International School](https://indico.in2p3.fr/event/14227/), Annecy, France, 6-9 June 2017
+  - [Second ASTERICS-OBELICS Internation School](https://indico.in2p3.fr/event/16864/), Annecy, France, 4-8 June 2018. A session dedicated to machine learning.
 
 
 - [ADA IX Summer school](http://ada9.cosmostat.org/), Valencia, Spain, 20-22 May 2018
