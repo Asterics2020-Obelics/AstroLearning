@@ -82,7 +82,7 @@ Do not hesitate to suggest contributions.
 
 - [ADASS series](http://www.adass.org/): Astronomical Data Analysis Software & Systems Conference Series
 
-  - [ADASS XXVIII](), USA, 11-15 November 2018
+  - [ADASS XXVIII](http://adass2018.astro.umd.edu/), USA, 11-15 November 2018
   - [ADASS XXVII](http://www.adass.cl/), Santiago, Chile, 22-26 October 2017
   - [ADASS XXVI](http://www.adass2016.inaf.it/index.php), Trieste, Italy, 21-23 October 2016
 
