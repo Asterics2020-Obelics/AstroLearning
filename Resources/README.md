@@ -92,6 +92,13 @@ Do not hesitate to suggest contributions.
   - [CHEP2018](http://chep2018.org/), Sofia, Bulgaria, 9-13 July 2018
   - [CHEP2016](http://chep2016.org/), San Francisco, USA, 10-14 October 2016
 
+- HAP Workshop: Big Data Science in Astroparticle Physics
+
+  This workshop had a initial parte with a hands-on session on a GPU cluster. 
+  
+  - [HAP 2017](https://indico.scc.kit.edu/indico/event/277/overview), RWTH Aachen University SuperC
+  - [HAP 2018](https://indico.scc.kit.edu/indico/event/344/overview), RWTH Aachen University SuperC
+
 
 ## Software
 
