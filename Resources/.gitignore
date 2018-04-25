@@ -6,3 +6,6 @@
 *.bcf
 *.run.xml
 *.DS_Store
+*.fls
+*.fdb_latexmk
+*.xml

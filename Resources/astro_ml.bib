@@ -1,3 +1,40 @@
+@ARTICLE{2018arXiv180310698S,
+   author = {{Shilon}, I. and {Kraus}, M. and {B{\"u}chele}, M. and {Egberts}, K. and
+	{Fischer}, T. and {Lukas Holch}, T. and {Lohse}, T. and {Schwanke}, U. and
+	{Steppa}, C. and {Funk}, S.},
+    title = "{Application of Deep Learning methods to analysis of Imaging Atmospheric Cherenkov Telescopes data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1803.10698},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics},
+     year = 2018,
+    month = mar,
+   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180310698S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  abstract="Ground based gamma-ray observations with Imaging Atmospheric Cherenkov Telescopes (IACTs) play a significant role in the discovery of very high energy (E > 100 GeV) gamma-ray emitters. The analysis of IACT data demands a highly efficient background rejection technique, as well as methods to accurately determine the energy of the recorded gamma-ray and the position of its source in the sky. We present results for background rejection and signal direction reconstruction from first studies of a novel data analysis scheme for IACT measurements. The new analysis is based on a set of Convolutional Neural Networks (CNNs) applied to images from the four H.E.S.S. phase-I telescopes. As the H.E.S.S. cameras pixels are arranged in a hexagonal array, we demonstrate two ways to use such image data to train CNNs: by resampling the images to a square grid and by applying modified convolution kernels that conserve the hexagonal grid properties. The networks were trained on sets of Monte-Carlo simulated events and tested on both simulations and measured data from the H.E.S.S. array. A comparison between the CNN analysis to current state-of-the-art algorithms reveals a clear improvement in background rejection performance. When applied to H.E.S.S. observation data, the CNN direction reconstruction performs at a similar level as traditional methods. These results serve as a proof-of-concept for the application of CNNs to the analysis of events recorded by IACTs."
+}
+
+@ARTICLE{2018arXiv180406913D,
+   author = {{Duarte}, J. and {Han}, S. and {Harris}, P. and {Jindariani}, S. and
+	{Kreinar}, E. and {Kreis}, B. and {Ngadiuba}, J. and {Pierini}, M. and
+	{Rivera}, R. and {Tran}, N. and {Wu}, Z.},
+    title = "{Fast inference of deep neural networks in FPGAs for particle physics}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1804.06913},
+ primaryClass = "physics.ins-det",
+ keywords = {Physics - Instrumentation and Detectors, Computer Science - Computer Vision and Pattern Recognition, High Energy Physics - Experiment, Statistics - Machine Learning},
+     year = 2018,
+    month = apr,
+   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180406913D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  abstract = "Recent results at the Large Hadron Collider (LHC) have pointed to enhanced physics capabilities through the improvement of the real-time event processing techniques. Machine learning methods are ubiquitous and have proven to be very powerful in LHC physics, and particle physics as a whole. However, exploration of the use of such techniques in low-latency, low-power FPGA hardware has only just begun. FPGA-based trigger and data acquisition (DAQ) systems have extremely low, sub-microsecond latency requirements that are unique to particle physics. We present a case study for neural network inference in FPGAs focusing on a classifier for jet substructure which would enable, among many other physics scenarios, searches for new dark sector particles and novel measurements of the Higgs boson. While we focus on a specific example, the lessons are far-reaching. We develop a package based on High-Level Synthesis (HLS) called hls4ml to build machine learning models in FPGAs. The use of HLS increases accessibility across a broad user community and allows for a drastic decrease in firmware development time. We map out FPGA resource usage and latency versus neural network hyperparameters to identify the problems in particle physics that would benefit from performing neural network inference with FPGAs. For our example jet substructure model, we fit well within the available resources of modern FPGAs with a latency on the scale of 100 ns."
+}
+
+
+
+
 @InProceedings{10.1007/978-3-319-23461-8_7,
 author="Bockermann, Christian
 and Br{\"u}gge, Kai
@@ -26,7 +63,9 @@ isbn="978-3-319-23461-8"
 
 
 
-@article{feng_lin_2016, title={The analysis of VERITAS muon images using convolutional neural networks}, volume={12}, DOI={10.1017/S1743921316012734}, number={S325}, journal={Proceedings of the International Astronomical Union}, publisher={Cambridge University Press}, author={Feng, Qi and Lin, Tony T. Y.}, year={2016}, pages={173–179}}
+@article{feng_lin_2016, title={The analysis of VERITAS muon images using convolutional neural networks}, volume={12}, DOI={10.1017/S1743921316012734}, number={S325}, journal={Proceedings of the International Astronomical Union}, publisher={Cambridge University Press}, author={Feng, Qi and Lin, Tony T. Y.}, year={2016}, pages={173–179},
+abstract="Imaging atmospheric Cherenkov telescopes (IACTs) are sensitive to rare gamma-ray photons, buried in the background of charged cosmic-ray (CR) particles, the flux of which is several orders of magnitude greater. The ability to separate gamma rays from CR particles is important, as it is directly related to the sensitivity of the instrument. This gamma-ray/CR-particle classification problem in IACT data analysis can be treated with the rapidly-advancing machine learning algorithms, which have the potential to outperform the traditional box-cut methods on image parameters. We present preliminary results of a precise classification of a small set of muon events using a convolutional neural networks model with the raw images as input features. We also show the possibility of using the convolutional neural networks model for regression problems, such as the radius and brightness measurement of muon events, which can be used to calibrate the throughput efficiency of IACTs."
+}
 
 @ARTICLE{2017arXiv170806706C,
    author = {{Caron}, S. and {G{\'o}mez-Vargas}, G.~A. and {Hendriks}, L. and
@@ -40,7 +79,8 @@ archivePrefix = "arXiv",
      year = 2017,
     month = aug,
    adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170806706C},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  abstract="We present a new method to interpret the $\gamma$-ray data of our inner Galaxy as measured by the Fermi Large Area Telescope (Fermi LAT). We train and test convolutional neural networks with simulated Fermi-LAT images based on models tuned to real data. We use this method to investigate the origin of an excess emission of GeV $\gamma$-rays seen in previous studies. Interpretations of this excess include $\gamma$ rays created by the annihilation of dark matter particles and $\gamma$ rays originating from a collection of unresolved point sources, such as millisecond pulsars. Our new method allows precise measurements of the contribution and properties of an unresolved population of $\gamma$-ray point sources in the interstellar diffuse emission model."
 }
 
 
@@ -73,7 +113,8 @@ Vahle},
   eprint    = {1711.08998},
   timestamp = {Sun, 03 Dec 2017 12:38:15 +0100},
   biburl    = {http://dblp.org/rec/bib/journals/corr/abs-1711-08998},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  abstract= "Attributing the pixels of an input image to a certain category is an important and well-studied problem in computer vision, with applications ranging from weakly supervised localisation to understanding hidden effects in the data. In recent years, approaches based on interpreting a previously trained neural network classifier have become the de facto state-of-the-art and are commonly used on medical as well as natural image datasets. In this paper, we discuss a limitation of these approaches which may lead to only a subset of the category specific features being detected. To address this problem we develop a novel feature attribution technique based on Wasserstein Generative Adversarial Networks (WGAN), which does not suffer from this limitation. We show that our proposed method performs substantially better than the state-of-the-art for visual attribution on a synthetic dataset and on real 3D neuroimaging data from patients with mild cognitive impairment (MCI) and Alzheimer's disease (AD). For AD patients the method produces compellingly realistic disease effect maps which are very close to the observed effects."
 }
 
 @conference{ICRC2017-Huennefeld,
@@ -83,7 +124,20 @@ Vahle},
   publisher    = {Proceedings of Science},
   volume       = {301},
   note         = {(ICRC2017)1057},
-  url          = {https://pos.sissa.it/301/1057/}
+  url          = {https://pos.sissa.it/301/1057/},
+  abstract     = "Recent advances, especially in image recognition, have shown the capabilities of deep learning.
+Deep neural networks can be extremely powerful and their usage is computationally inexpensive
+once the networks are trained. While the main bottleneck for deep neural networks in the traditional
+domain of image classification is the lack of sufficient labeled data, this usually does not
+apply to physics where millions of Monte Carlo simulations exist.
+The IceCube Neutrino Observatory is a Cherenkov detector deep in the Antarctic ice where the
+reconstruction of muon-neutrino events is one of the key challenges. Due to limited computational
+resources and the high data rate, only simplified reconstructions limited to a small subset of data
+can be run on-site at the South Pole. However, in order to perform online analysis and to issue
+real-time alerts, a fast and powerful reconstruction is necessary.
+This paper demonstrates how deep learning techniques such as those used in image recognition
+can be applied to IceCube pulses in order to reconstruct muon-neutrino events. These methods
+can be generalized to other physics experiments."
 }
 
 @conference{ICRC2017-Holch,
@@ -93,7 +147,8 @@ Vahle},
   publisher    = {Proceedings of Science},
   volume       = {301},
   note         = {(ICRC2017)795},
-  url          = {https://pos.sissa.it/301/795/}
+  url          = {https://pos.sissa.it/301/795/},
+  abstract     = "A dramatic progress in the field of computer vision has been made in recent years by applying deep learning techniques. State-of-the-art performance in image recognition is thereby reached with Convolutional Neural Networks (CNNs). CNNs are a powerful class of artificial neural networks, characterized by requiring fewer connections and free parameters than traditional neural networks and exploiting spatial symmetries in the input data. Moreover, CNNs have the ability to automatically extract general characteristic features from data sets and create abstract data representations which can perform very robust predictions. This suggests that experiments using Cherenkov telescopes could harness these powerful machine learning algorithms to improve the analysis of particle-induced air-showers, where the properties of primary shower particles are reconstructed from shower images recorded by the telescopes. In this work, we present initial results of a CNN-based analysis for background rejection and shower reconstruction, utilizing simulation data from the H.E.S.S. experiment. We concentrate on supervised training methods and outline the influence of image sampling on the performance of the CNN-model predictions."
 }
 
 
