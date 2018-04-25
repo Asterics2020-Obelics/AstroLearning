@@ -94,8 +94,8 @@ Do not hesitate to suggest contributions.
 
 - HAP Workshop: Big Data Science in Astroparticle Physics
 
-  This workshop had a initial parte with a hands-on session on a GPU cluster. 
-  
+  This workshop had a initial parte with a hands-on session on a GPU cluster.
+
   - [HAP 2017](https://indico.scc.kit.edu/indico/event/277/overview), RWTH Aachen University SuperC
   - [HAP 2018](https://indico.scc.kit.edu/indico/event/344/overview), RWTH Aachen University SuperC
 
@@ -131,5 +131,5 @@ Do not hesitate to suggest contributions.
 
 > a .bib and associated .tex may be found in this repository.   
 To add a reference:
-- Update the .bib
-- run the .tex with biber
+- Update the .bib with reference including abstract
+- run the .tex with biber (or pdflatexmk engine)
