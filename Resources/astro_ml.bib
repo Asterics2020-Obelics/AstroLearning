@@ -1,3 +1,27 @@
+@PROCEEDINGS{Ryzhikov2017,
+author = {A. Ryzhikov and A. Ustyuzhanin},
+title = "Domain adaptation with gradient reversal for MC/real data calibration",
+url={https://indico.cern.ch/event/567550/contributions/2629724/attachments/1513629/2515121/ACAT_PROCEEDINGS_2017.pdf},
+year = 2017,
+abstract = "It is quite common part of the data analysis in High Energy Physics to train a classifier for
+signal and background separation. In case the signal under investigation is a rare process, the
+signal sample is simulated and background sample is taken from the real data. Such setting
+create an unnecessary bias: the classifier might learn not the characteristic of the signal but
+the characteristic of the imperfect simulation. So the challenge is to train the classifier in such
+way that it picks up signal/background difference and doesnt overfit to the simulation-specific
+features. The suggested approach is based on cross-domain adaptation technique using neural
+networks with gradient reversal. The network architecture is a dense multi-branch structure.
+One branch is responsible for the signal/background discrimination, the second branch helps
+to avoid the overfitting on the Monte-Carlo training dataset. The tests showed that this
+architecture is a robust mechanism for choosing trade-offs between discrimination power and
+overfitting. So the resulting networks successfully distinguishes the signal from the background,
+but does not distinguish simulated events from the real ones. The third network branch helps
+to reduce the correlation between the classifier predictions and reconstructed mass of the decay,
+thereby making such approach highly viable for wide variety of physics searches"
+}
+
+
+
 @ARTICLE{2018arXiv180107323N,
    author = {{Narayan}, G. and {Zaidi}, T. and {Soraisam}, M.~D. and {Wang}, Z. and
 	{Lochner}, M. and {Matheson}, T. and {Saha}, A. and {Yang}, S. and
